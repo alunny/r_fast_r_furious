@@ -8,7 +8,7 @@
         root.r_fast_r_furious = factory();
   }
 }(this, function () {
-    var r_fast = /^((The(?=.*the)|2(?=.* 2)) )?Fast (Five|(((and the)|2(?=.*s$)|&(?!.*:)) Furious(( (6|7))|: Tokyo Drift)?))$/;
+    var r_fast = /^((The(?=.*the)|2(?=.* 2)) )?Fast (Five|(((and the)|\2(?=.*s$)|&(?!.*:)) Furious(( (6|7))|: Tokyo Drift)?))$/;
 
     return function (str) {
         return r_fast.test(str);
