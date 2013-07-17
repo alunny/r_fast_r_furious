@@ -1,6 +1,6 @@
 {
   "name": "r_fast_r_furious",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "quickly validate if a movie is part of the Fast & Furious saga",
   "main": "fast.js",
   "scripts": {
