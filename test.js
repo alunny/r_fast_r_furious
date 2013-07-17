@@ -30,3 +30,5 @@ assert(! fast('Fast & Furious: Tokyo Drift'));
 assert(! fast('2 Fast 2 Furious 6'));
 
 assert(! fast('Fast 2 Furious'));
+
+assert(! fast('Fast and the Furious'));
