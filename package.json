@@ -1,6 +1,6 @@
 {
   "name": "r_fast_r_furious",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "check if a string represents a movie in the Fast and Furious series of movies",
   "main": "fast.js",
   "scripts": {
