@@ -16,3 +16,5 @@ assert(fast('Fast Five'));
 assert(fast('Fast & Furious 6'));
 
 assert(fast('Fast & Furious 7'));
+
+assert(! fast('Fast & Furious 100: Electric Boogaloo'));
