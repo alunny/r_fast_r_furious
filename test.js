@@ -25,7 +25,7 @@ assert(fast('Furious 7'));
 
 assert(fast('The Fate of the Furious'));
 
-assert(fast('Hobbs And Shaw'));
+assert(fast('Fast and Furious Presents: Hobbs & Shaw'));
 
 assert(! fast('Fast & Furious 100: Electric Boogaloo'));
 
@@ -47,6 +47,10 @@ assert(! fast('The Fast and the Furious 6'));
 
 assert(! fast('Fast & Furious 7'));
 
+assert(! fast('Hobbs And Shaw'));
+
+assert(! fast('Hobbs & Shaw'));
+
 assert(! fast('Hobbs And Furious'));
 
 assert(! fast('The Hobbs and the Shaw'));
@@ -54,6 +58,8 @@ assert(! fast('The Hobbs and the Shaw'));
 assert(! fast('The Furious'));
 
 assert(! fast('The Fate of the Shaw'));
+
+assert(! fast('Fast and Furious Presents'));
 
 /*
  * TODO: fix these false positives
